@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Spinner CSS Puro</title>
+</head>
+<style type="text/css">
+	body {
+		align-items: center;
+		background: #dff9fb;
+		display: flex;
+		height: 90vh;
+		justify-content: center;
+	}
+	.spinner {
+		animation: spin 1s linear infinite;
+		border: 5px solid rgba(0, 0, 0, .1);
+		border-left-color: #22a6b3;
+		border-radius: 50%;
+		height: 100px;
+		width: 100px;
+	}
+
+	@keyframes spin {
+		to { transform: rotate(360deg); }
+	}
+</style>
+<body>
+	<div class="spinner">
+	</div>
+</body>
+</html>
